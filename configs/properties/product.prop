@@ -38,6 +38,9 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=false
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Radio
 persist.vendor.radio.enable_temp_dds=true
 ro.vendor.radio.fastdormancy=true
