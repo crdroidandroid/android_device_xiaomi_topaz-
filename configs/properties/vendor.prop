@@ -154,6 +154,8 @@ drm.service.enabled=true
 # Display
 debug.egl.hw=0
 debug.mdpcomp.logs=0
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_hwc_vds=0
 debug.sf.disable_client_composition_cache=1
