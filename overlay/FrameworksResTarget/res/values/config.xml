@@ -68,4 +68,10 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
+    <!-- The list of components which should be automatically disabled for a specific device. -->
+    <string-array name="config_deviceDisabledComponents" translatable="false">
+        <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
+        <item>com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver</item>
+    </string-array>
+
 </resources>
