@@ -231,6 +231,9 @@ debug.hwui.renderer=opengl
 debug.renderengine.backend=gles
 persist.sys.sf.native_mode=2
 
+# HWUI
+ro.hwui.render_ahead=10
+
 # Keystore
 ro.hardware.keystore_desede=true
 
