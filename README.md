@@ -29,4 +29,4 @@ Redmi Note 12 4G was announced and released in March 2023.
 
 ## Device picture
 
-![Xiaomi Redmi Note 12 4G](https://fdn2.gsmarena.com/vv/pics/xiaomi/redmi-note-12-4g-2.jpg "Xiaomi Redmi Note 12 4G")
+![Xiaomi Redmi Note 12 4G](https://i02.appmifile.com/224_operator_sg/10/03/2023/cdf4a7f40a92668d1c8fe2fcc5045ea8.png)
