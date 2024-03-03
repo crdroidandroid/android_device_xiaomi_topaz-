@@ -62,6 +62,12 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default
 
+PRODUCT_PACKAGES += \
+    audioadsprpcd \
+    libvolumelistener \
+    libbatterylistener \
+    libhfp_pal
+
 AUDIO_HAL_DIR := hardware/qcom-caf/sm6225/audio/primary-hal
 
 PRODUCT_COPY_FILES += \
