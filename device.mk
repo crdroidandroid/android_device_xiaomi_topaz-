@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio-V2-ndk.vendor \
     audio.bluetooth.default \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.bluetooth.audio-V1-ndk.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
@@ -167,9 +166,7 @@ USE_DEX2OAT_DEBUG := false
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4.vendor \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
-    gralloc.bengal \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libdisplayconfig.system.qti \
     libgralloc.qti \
     libqdMetaData \
@@ -342,7 +339,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_hidl_plugin.vendor \
     libcodec2_vndk.vendor \
     libsfplugin_ccodec_utils.vendor \
     libplatformconfig
@@ -444,9 +440,7 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
     libqti_vndfwk_detect_vendor \
-    libqti_vndfwk_detect_vendor.vendor \
-    libvndfwk_detect_jni.qti.vendor \
-    libvndfwk_detect_jni.qti_vendor.vendor
+    libvndfwk_detect_jni.qti.vendor
 
 # QTI service tracker
 PRODUCT_PACKAGES += \
