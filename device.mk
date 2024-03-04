@@ -290,6 +290,7 @@ PRODUCT_COPY_FILES += \
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.zram \
     fstab.qcom.vendor_ramdisk \
     init.qcom.rc \
     init.qti.kernel.rc \
