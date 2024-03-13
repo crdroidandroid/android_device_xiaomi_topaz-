@@ -253,9 +253,9 @@ ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.3
 ro.vendor.perf.scroll_opt=1
 ro.vendor.qspm.enable=true
-vendor.pasr.activemode.enabled=true
+vendor.pasr.activemode.enabled=false
 vendor.perf.framepacing.enable=1
-vendor.power.pasr.enabled=true
+vendor.power.pasr.enabled=false
 
 # QCOM sys
 persist.vendor.qcomsysd.enabled=1
