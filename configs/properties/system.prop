@@ -19,6 +19,9 @@ debug.hwui.skia_atrace_enabled=false
 
 # IMS
 persist.vendor.ims.no_stapa=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 
 # IOrap
 persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
