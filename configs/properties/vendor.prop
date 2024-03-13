@@ -274,6 +274,7 @@ persist.vendor.radio.sib16_support=1
 persist.vendor.radio.snapshot_enabled=1
 persist.vendor.radio.snapshot_timer=5
 persist.vendor.rcs.singlereg.feature=1
+persist.vendor.radio.add_power_save=1
 
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
