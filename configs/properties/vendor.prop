@@ -230,6 +230,7 @@ debug.sf.enable_gl_backpressure=false
 debug.hwui.renderer=opengl
 debug.renderengine.backend=gles
 persist.sys.sf.native_mode=2
+debug.sf.defer_refresh_rate_when_off=1
 
 # HWUI
 ro.hwui.render_ahead=10
