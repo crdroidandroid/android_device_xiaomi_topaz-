@@ -244,6 +244,8 @@ ro.control_privapp_permissions=enforce
 # Media
 vendor.mm.enable.qcom_parser=16711663
 persist.mm.enable.prefetch=true
+vendor.media.omx=0
+debug.stagefright.c2inputsurface=-1
 
 # Netflix
 vendor.netflix.bsp_rev=Q6115-31409-1
