@@ -40,6 +40,7 @@ genfscon sysfs /devices/platform/soc/[a-f0-9]+.qcom,spmi/spmi-0/spmi0-0[0-9]/[a-
 genfscon sysfs /devices/platform/soc/soc:vibrator_gpio/leds/vibrator u:object_r:sysfs_leds:s0
 
 # label more sysfs wakeup
+genfscon sysfs /devices/platform/soc/soc:fpc1020/wakeup/wakeup9 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/active_count u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/active_time_ms u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/wakeup/wakeup[0-101][0-101]/event_count u:object_r:sysfs_wakeup:s0
