@@ -379,8 +379,14 @@
         <item>115</item> <!--item>sensorRadius</item-->
     </array>
 
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
+
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/qcom-battery/quick_charge_type</string>
+
+    <!-- Expected value from fast charging status file  -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">3</string>
 
     <!-- Build fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Redmi/topaz_global/topaz:13/TKQ1.221114.001/V816.0.4.0.UMGMIXM:user/release-keys</string>
