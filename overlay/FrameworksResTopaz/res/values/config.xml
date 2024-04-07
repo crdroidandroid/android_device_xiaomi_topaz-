@@ -345,7 +345,7 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>4.3</item>
-        <item>800.0</item>
+        <item>1000.0</item>
     </array>
 
     <!-- Indicates whether the system wide captions service should also support
