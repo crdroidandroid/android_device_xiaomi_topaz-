@@ -726,7 +726,6 @@ vendor/lib64/libmifpext.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
 # Firmware touch
 odm/firmware/Conf_MultipleTest_ft3519t.ini:vendor/firmware/Conf_MultipleTest_ft3519t.ini
