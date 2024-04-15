@@ -240,7 +240,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
     android.hardware.biometrics.fingerprint-V2-ndk.vendor \
-    android.hardware.biometrics.common-V2-ndk.vendor
+    android.hardware.biometrics.common-V2-ndk.vendor \
+    android.hardware.biometrics.fingerprint@2.1.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
