@@ -238,7 +238,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
+    android.hardware.biometrics.fingerprint-V2-ndk.vendor \
+    android.hardware.biometrics.common-V2-ndk.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
