@@ -64,7 +64,7 @@
         <fqname>@1.1::IIWlan/slot1</fqname>
         <fqname>@1.1::IIWlan/slot2</fqname>
     </hal>
-    <hal format="hidl">
+    <hal format="aidl">
         <name>vendor.qti.hardware.radio.am</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IQcRilAudio/slot1</fqname>
@@ -88,7 +88,7 @@
         <fqname>@1.3::IUimLpa/UimLpa0</fqname>
         <fqname>@1.3::IUimLpa/UimLpa1</fqname>
     </hal>
-    <hal format="hidl">
+    <hal format="aidl">
         <name>vendor.qti.hardware.radio.qcrilhook</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IQtiOemHook/oemhook0</fqname>
