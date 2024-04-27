@@ -394,4 +394,6 @@
     <!-- Device model (Build.MODEL) to spoof for netflix -->
     <string name="config_netflixSpoofModel" translatable="false">23021RAA2Y</string>
 
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>
