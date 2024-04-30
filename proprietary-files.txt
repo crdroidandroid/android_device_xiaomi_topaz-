@@ -1097,22 +1097,15 @@ vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
 # Mlipay
 odm/bin/mlipayd@1.1
-odm/bin/mtd@1.3
 odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc
 odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
 odm/lib64/libmlipay.so
 odm/lib64/libmlipay@1.1.so
-odm/lib64/libmt@1.3.so
 odm/lib64/libteeclientjni.so
 odm/lib64/libwvkeybox.so
 odm/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 odm/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 odm/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so
 vendor/lib64/libmisight.so
 
 # Neural
@@ -1293,8 +1286,6 @@ vendor/bin/ks
 vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/qms
-vendor/bin/qrtr-cfg
-vendor/bin/qrtr-lookup
 vendor/bin/qrtr-ns
 vendor/bin/rmt_storage
 vendor/bin/tftp_server

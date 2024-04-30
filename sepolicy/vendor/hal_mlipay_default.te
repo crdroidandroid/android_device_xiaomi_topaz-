@@ -16,7 +16,6 @@ allow hal_mlipay_default ion_device:chr_file rw_file_perms;
 allow hal_mlipay_default rootfs:lnk_file r_file_perms;
 allow hal_mlipay_default vendor_dmabuf_qseecom_heap_device:chr_file { ioctl open read };
 allow hal_mlipay_default vendor_dmabuf_qseecom_ta_heap_device:chr_file { ioctl open read };
-allow hal_mlipay_default hal_mtdservice_default:binder transfer;
 init_daemon_domain(hal_mlipay_default)
 get_prop(hal_mlipay_default, vendor_fp_prop)
 get_prop(hal_mlipay_default, vendor_system_prop)
