@@ -1077,6 +1077,7 @@ vendor/lib64/libqcodec2_mockqc2filter.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
+vendor/lib64/libvideotxr.so
 
 # Memory
 vendor/lib64/libvmmem.so
