@@ -1621,6 +1621,12 @@ vendor/etc/tzlog.dict
 -vendor/lib64/liblmthermallistner.so
 -vendor/lib64/libthermalclient.so
 
+# Touchfeature
+vendor/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
+vendor/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
+vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
+vendor/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
+
 # Time
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
