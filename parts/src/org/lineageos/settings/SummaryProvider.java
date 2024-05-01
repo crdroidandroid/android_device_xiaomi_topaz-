@@ -26,7 +26,6 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import org.lineageos.settings.R;
-import org.lineageos.settings.dolby.DolbyUtils;
 import org.lineageos.settings.gestures.GestureUtils;
 
 import java.util.Arrays;
@@ -35,7 +34,6 @@ import java.util.List;
 /** Provide preference summary for injected items. */
 public class SummaryProvider extends ContentProvider {
 
-    private static final String KEY_DOLBY = "dolby";
     private static final String KEY_FP_DOUBLE_TAP = "fp_double_tap";
 
     @Override
@@ -43,9 +41,6 @@ public class SummaryProvider extends ContentProvider {
         final Bundle bundle = new Bundle();
         String summary;
         switch (method) {
-            case KEY_DOLBY:
-                summary = getDolbySummary();
-                break;
             case KEY_FP_DOUBLE_TAP:
                 summary = getFpDoubleTapSummary();
                 break;
@@ -85,20 +80,6 @@ public class SummaryProvider extends ContentProvider {
     @Override
     public int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {
         throw new UnsupportedOperationException();
-    }
-
-    private String getDolbySummary() {
-        final DolbyUtils dolbyUtils = DolbyUtils.getInstance(getContext());
-        final boolean dsOn = dolbyUtils.getDsOn();
-        if (!dsOn) {
-            return getContext().getString(R.string.dolby_off);
-        }
-        final String profileName = dolbyUtils.getProfileName();
-        if (profileName == null) {
-            return getContext().getString(R.string.dolby_on);
-        } else {
-            return getContext().getString(R.string.dolby_on_with_profile, profileName);
-        }
     }
 
     private String getFpDoubleTapSummary() {

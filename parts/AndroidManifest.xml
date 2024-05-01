@@ -23,8 +23,6 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.DEVICE_POWER" />
 
-    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -42,46 +40,6 @@
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name=".dolby.DolbyActivity"
-            android:label="@string/dolby_title"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.CATEGORY_CONTENT_MUSIC" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.sound" />
-            <meta-data android:name="com.android.settings.summary_uri"
-                       android:value="content://org.lineageos.settings.device.summary/dolby" />
-        </activity>
-
-        <service
-            android:name=".dolby.DolbyTileService"
-            android:icon="@drawable/ic_dolby_qs"
-            android:label="@string/dolby_title"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-
-        <activity
-            android:name=".doze.DozeSettingsActivity"
-            android:label="@string/ambient_display_title"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
 
         <activity
             android:name=".speaker.ClearSpeakerActivity" 
@@ -157,18 +115,6 @@
         </service>
 
         <service
-            android:name=".doze.DozeService"
-            android:exported="true"
-            android:permission="DozeService">
-        </service>
-
-        <service
-            android:name=".doze.PocketService"
-            android:exported="true"
-            android:permission="PocketService">
-        </service>
-
-        <service
             android:name=".display.ColorService"
             android:exported="true"
             android:permission="ColorService">
@@ -178,12 +124,6 @@
             android:name=".camera.NfcCameraService"
             android:exported="true"
             android:permission="NfcCameraService">
-        </service>
-
-        <service
-            android:name=".doze.AodBrightnessService"
-            android:exported="true"
-            android:permission="AodBrightnessService">
         </service>
 
         <service
