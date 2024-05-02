@@ -5,11 +5,45 @@
     "branch": "uvite"
   },
   {
-    "repository": "Nikita-Prjkts/vendor_xiaomi_topaz",
+    "repository": "crdroidandroid/vendor_xiaomi_topaz",
     "target_path": "vendor/xiaomi/topaz"
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_topaz",
     "target_path": "device/xiaomi/topaz-kernel"
+    "branch": "14.0"
+    "remote": "gitlab"
   },
+  {
+    "repository": "NPDTeam/device_qcom_sepolicy_vndr",
+    "target_path": "device/qcom/sepolicy_vndr/sm6225"
+  },
+  {
+    "repository": "NPDTeam/vendor_qcom_opensource_agm",
+    "target_path": "hardware/qcom-caf/sm6225/audio/agm"
+  },
+  {
+    "repository": "NPDTeam/vendor_qcom_opensource_arpal-lx",
+    "target_path": "hardware/qcom-caf/sm6225/audio/pal"
+  },
+  {
+    "repository": "NPDTeam/hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/sm6225/media"
+  },
+  {
+    "repository": "NPDTeam/hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/sm6225/audio/primary-hal"
+  },
+  {
+    "repository": "NPDTeam/vendor_qcom_opensource_dataipa",
+    "target_path": "hardware/qcom-caf/sm6225/dataipa"
+  },
+  {
+    "repository": "NPDTeam/hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/sm6225/audio/agm"
+  },
+  {
+    "repository": "NPDTeam/vendor_qcom_opensource_data-ipa-cfg-mgr",
+    "target_path": "hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"
+  }
 ]
