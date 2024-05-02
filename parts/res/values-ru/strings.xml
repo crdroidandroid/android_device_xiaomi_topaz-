@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018, 2020-2024 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Xiaomi Parts -->
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Режимы работы процессора</string>
+    <string name="thermal_summary">Настройте режимы работы процессора для каждого приложения</string>
+    <string name="thermal_default">По умолчанию</string>
+    <string name="thermal_benchmark">Бенчмарк</string>
+    <string name="thermal_browser">Браузер</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Звонки</string>
+    <string name="thermal_gaming">Игры</string>
+    <string name="thermal_navigation">Навигация</string>
+    <string name="thermal_streaming">Стриминг</string>
+    <string name="thermal_video">Видео</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Очистка динамиков</string>
+    <string name="clear_speaker_summary">Проигрывает 30-секудное аудио для очистки динамиков</string>
+    <string name="clear_speaker_description">Запустите эту функцию один или два раза, если динамик слегка забит пылью. Установите максимальную громкость .\n\nЕсли динамик сильно забит, запустите эту функцию 2–5 раз, встряхивая устройство динамиком вниз.\n\nПРЕДУПРЕЖДЕНИЕ: Перед запуском убедитесь, что наушники не подключены.</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_title">Частота обновления каждого приложения</string>
+    <string name="refresh_summary">Настройте максимальную частоту обновления для каждого приложения</string>
+    <string name="refresh_default">По умолчанию</string>
+    <string name="refresh_standard">60 Гц</string>
+    <string name="refresh_extreme">120 Гц</string>
+
+     <!-- Gestures: double tap on fingerprint sensor -->
+     <string name="fp_double_tap_title">Двойное касание сканера отпечатка</string>
+     <string name="fp_double_tap_summary_on">Включено / %1$s</string>
+     <string name="fp_double_tap_summary_off">Отключено</string>
+     <string name="fp_double_tap_footer">Жесты работают только тогда, когда устройство разблокировано.</string>
+     <string name="fp_double_tap_enable">Использовать двойное касание</string>
+     <string name="fp_double_tap_action">Дважды коснитесь сканера отпечатка пальца для</string>
+     <string name="action_screenshot">Создания скриншота</string>
+     <string name="action_assistant">Открытия ассистента (Google, Яндекс Алису, и другие)</string>
+     <string name="action_play_pause">Управления воспроизведением медиа</string>
+     <string name="action_notifications">Отображения уведомлениЙ</string>
+     <string name="action_camera">Запуска камеры</string>
+     <string name="action_flashlight">Включения/отключения фонарика</string>
+     <string name="action_mute">Переключения режим звонка (отключить звук)</string>
+     <string name="action_vibrate">Переключения режим звонка (вибрация)</string>
+     <string name="action_volume">Отображения панели громкости</string>
+     <string name="action_sleep">Выключения экрана</string>
+</resources>
