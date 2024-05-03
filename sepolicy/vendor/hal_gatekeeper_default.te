@@ -1,0 +1,3 @@
+#============= hal_gatekeeper_default ==============
+allow hal_gatekeeper_default vendor_dmabuf_qseecom_heap_device:chr_file { ioctl open read };
+get_prop(hal_gatekeeper_default, vendor_tee_listener_prop)
