@@ -6,44 +6,53 @@
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_xiaomi_topaz",
-    "target_path": "vendor/xiaomi/topaz"
+    "target_path": "vendor/xiaomi/topaz",
+    "branch": "14.0"
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_topaz",
-    "target_path": "device/xiaomi/topaz-kernel"
-    "branch": "14.0"
+    "target_path": "device/xiaomi/topaz-kernel",
+    "branch": "14.0",
     "remote": "gitlab"
   },
   {
     "repository": "NPDTeam/device_qcom_sepolicy_vndr",
-    "target_path": "device/qcom/sepolicy_vndr/sm6225"
+    "target_path": "device/qcom/sepolicy_vndr/sm6225",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/vendor_qcom_opensource_agm",
-    "target_path": "hardware/qcom-caf/sm6225/audio/agm"
+    "target_path": "hardware/qcom-caf/sm6225/audio/agm",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/vendor_qcom_opensource_arpal-lx",
-    "target_path": "hardware/qcom-caf/sm6225/audio/pal"
+    "target_path": "hardware/qcom-caf/sm6225/audio/pal",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/hardware_qcom_media",
-    "target_path": "hardware/qcom-caf/sm6225/media"
+    "target_path": "hardware/qcom-caf/sm6225/media",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/hardware_qcom_audio",
-    "target_path": "hardware/qcom-caf/sm6225/audio/primary-hal"
+    "target_path": "hardware/qcom-caf/sm6225/audio/primary-hal",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/vendor_qcom_opensource_dataipa",
-    "target_path": "hardware/qcom-caf/sm6225/dataipa"
+    "target_path": "hardware/qcom-caf/sm6225/dataipa",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/hardware_qcom_display",
-    "target_path": "hardware/qcom-caf/sm6225/audio/agm"
+    "target_path": "hardware/qcom-caf/sm6225/audio/agm",
+    "branch": "14.0-caf-sm6225"
   },
   {
     "repository": "NPDTeam/vendor_qcom_opensource_data-ipa-cfg-mgr",
-    "target_path": "hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"
+    "target_path": "hardware/qcom-caf/sm6225/data-ipa-cfg-mgr",
+    "branch": "14.0-caf-sm6225"
   }
 ]
