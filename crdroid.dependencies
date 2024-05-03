@@ -5,7 +5,7 @@
     "branch": "uvite"
   },
   {
-    "repository": "crdroidandroid/vendor_xiaomi_topaz",
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_topaz",
     "target_path": "vendor/xiaomi/topaz"
   },
   {
