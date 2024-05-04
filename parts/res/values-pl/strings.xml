@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018, 2020-2024 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Xiaomi Parts -->
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Profile termiczne</string>
+    <string name="thermal_summary">Konfiguracja profili termicznych dla poszczególnych aplikacji</string>
+    <string name="thermal_default">Domyślny</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Przeglądarka</string>
+    <string name="thermal_camera">Aparat</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_gaming">Gry</string>
+    <string name="thermal_navigation">Nawigacja</string>
+    <string name="thermal_streaming">Streaming</string>
+    <string name="thermal_video">Wideo</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Czyszczenie głośnika</string>
+    <string name="clear_speaker_summary">Odtwórz 30-sekundowe nagranie, aby oczyścić głośnik</string>
+    <string name="clear_speaker_description">Użyj tej funkcji raz lub dwa razy, jeśli zauważysz, że głośnik jest lekko zablokowany przez kurz. Ustaw głośność mediów na maksimum.\n\nJeśli głośnik jest mocno zablokowany, uruchom tę funkcję 2-5 razy, potrząsając urządzeniem z głośnikiem skierowanym w dół.\n\nOSTRZEŻENIE: Upewnij się, że wszystkie słuchawki są odłączone.</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_title">Częstotliwość odświeżania aplikacji</string>
+    <string name="refresh_summary">Ustaw maksymalną częstotliwość odświeżania dla poszczególnych aplikacji</string>
+    <string name="refresh_default">Domyślna</string>
+    <string name="refresh_standard">60 Hz</string>
+    <string name="refresh_extreme">120 Hz</string>
+
+     <!-- Gestures: double tap on fingerprint sensor -->
+     <string name="fp_double_tap_title">Dwukrotne stuknięcie w czytnik linii papilarnych</string>
+     <string name="fp_double_tap_summary_on">Wł. / %1$s</string>
+     <string name="fp_double_tap_summary_off">Wył.</string>
+     <string name="fp_double_tap_footer">Ten gest działa tylko po odblokowaniu urządzenia.</string>
+     <string name="fp_double_tap_enable">Włącz gest dwukrotnego stuknięcia</string>
+     <string name="fp_double_tap_action">Stuknij dwukrotnie w czytnik linii papilarnych, aby</string>
+     <string name="action_screenshot">Zrobić zrzut ekranu</string>
+     <string name="action_assistant">Uruchomić asystenta</string>
+     <string name="action_play_pause">Włączyć lub zatrzymać odtwarzanie mediów</string>
+     <string name="action_notifications">Pokazać powiadomienia</string>
+     <string name="action_camera">Otworzyć aparat</string>
+     <string name="action_flashlight">Przełączyć latarkę</string>
+     <string name="action_mute">Przełączyć tryb dzwonienia (wycisz)</string>
+     <string name="action_vibrate">Przełączyć tryb dzwonienia (wibracje)</string>
+     <string name="action_volume">Pokazać panel głośności</string>
+     <string name="action_sleep">Wyłączyć ekran</string>
+</resources>
