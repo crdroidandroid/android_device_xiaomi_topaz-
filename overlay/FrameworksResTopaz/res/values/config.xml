@@ -363,7 +363,7 @@
     </string-array>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false" >true</bool>
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
          Note: this value is temporary and is expected to be queried directly
@@ -396,4 +396,7 @@
 
     <!-- Determines whether the shell features all run on another thread. -->
     <bool name="config_enableShellMainThread">true</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
