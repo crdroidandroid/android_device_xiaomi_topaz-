@@ -64,6 +64,8 @@ on fs
     chmod 0771 /mnt/vendor/persist
     restorecon_recursive /mnt/vendor/persist
     mkdir /mnt/vendor/persist/data 0700 system system
+    mkdir /dev/logfs 0771 system system
+    mount vfat /dev/block/bootdevice/by-name/logfs /dev/logfs noatime umask=006,uid=1000,gid=1000
     mount ext4 /dev/block/bootdevice/by-name/rescue /mnt/rescue noatime
     restorecon_recursive /mnt/rescue
     chmod 0664 /sys/class/thermal/thermal_message/sconfig
@@ -88,6 +90,8 @@ on post-fs-data
 #flashlight permission
     chmod 0660 /sys/class/leds/led:torch/brightness
     chown system system /sys/class/leds/led:torch/brightness
+    chmod 0660 /sys/class/leds/flashlight-back/brightness
+    chown system system /sys/class/leds/flashlight-back/brightness
     chmod 0660 /sys/class/leds/vibrator/state
     chown system system /sys/class/leds/vibrator/state
     chmod 0660 /sys/class/leds/vibrator/duration

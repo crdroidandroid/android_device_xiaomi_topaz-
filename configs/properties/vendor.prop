@@ -156,6 +156,7 @@ vendor.qc2audio.suspend.enabled=true
 
 # Crypto
 ro.crypto.allow_encrypt_override=true
+ro.crypto.metadata_init_delete_all_keys.enabled=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
 # DPM
@@ -249,6 +250,9 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # FS-verity
 ro.apk_verity.mode=2
+
+# Gatekeeper
+vendor.gatekeeper.is_security_level_spu=0
 
 # Graphics
 debug.hwui.renderer=skiagl

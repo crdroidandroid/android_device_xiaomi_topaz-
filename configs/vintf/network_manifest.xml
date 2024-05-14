@@ -94,7 +94,7 @@
     </hal>
     <hal format="aidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
-        <version>8</version>
+        <version>9</version>
         <fqname>IQtiRadioStable/slot1</fqname>
         <fqname>IQtiRadioStable/slot2</fqname>
     </hal>

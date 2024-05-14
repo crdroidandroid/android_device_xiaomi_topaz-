@@ -1,4 +1,4 @@
-# All blobs below are extracted from topaz V816.0.2.0.UMGMIXM
+# All blobs below are extracted from topaz V816.0.5.0.UMGMIXM
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
@@ -705,6 +705,7 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libops.so
 vendor/lib64/libqisl.so
 vendor/lib64/librpmb.so
+-vendor/lib64/libStDrvInt.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libwvaidl.so
@@ -830,42 +831,32 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/bin/hw/android.hardware.gnss-aidl-service-qti
 vendor/bin/edgnss-daemon
 vendor/bin/engine-service
-vendor/bin/garden_app
 vendor/bin/loadalgo
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/mlid
-vendor/bin/ssgtzd
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
-vendor/bin/xtwifi-inet-agent
 vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/loc-launcher.rc
 vendor/etc/init/qseecomd.rc
 vendor/etc/init/shsusrd.rc
-vendor/etc/init/ssgtzd.rc
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/etc/apdr.conf
 vendor/etc/batching.conf
-vendor/etc/cacert_location.pem
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
-vendor/etc/xtra_root_cert.pem
 vendor/etc/xtwifi.conf
 vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
-vendor/lib64/libasn1cper.so
-vendor/lib64/libasn1crt.so
-vendor/lib64/libasn1crtx.so
 vendor/lib64/libbatching.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libengineplugin.so
-vendor/lib64/libgarden.so
 vendor/lib64/libgdtap.so
 vendor/lib64/libgeofencing.so
 vendor/lib64/libgnss.so
@@ -880,8 +871,11 @@ vendor/lib64/liblbs_core.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_api_wds.so
+vendor/lib64/libloc_base_util.so
 vendor/lib64/libloc_core.so
 vendor/lib64/libloc_eng_hub.so
+vendor/lib64/liblowi_common.so
+vendor/lib64/libloc_mq_client.so
 vendor/lib64/libloc_qwes_iface.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/libloc_util.so
@@ -902,9 +896,7 @@ vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/libsys_info_cache.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libxtadapter.so
-vendor/lib64/libxtwifi_server_protocol.so
-vendor/lib64/libxtwifi_server_protocol_uri_v3.so
-vendor/lib64/vendor.qti.gnss-V2-ndk.so
+vendor/lib64/vendor.qti.gnss-V4-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
 
 # Graphics
@@ -1149,6 +1141,7 @@ vendor/lib64/libqcodec2_mockqc2filter.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
+vendor/lib64/libvideotxr.so
 
 # Memory
 vendor/lib/libvmmem.so
@@ -1165,6 +1158,7 @@ odm/lib64/libwvkeybox.so
 odm/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 odm/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 odm/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
+vendor/lib64/libmisight.so
 
 # Neural
 vendor/lib64/libhta.so
@@ -1351,6 +1345,11 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmi_legacy.so
 vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices.so
+
+# QSAP
+vendor/bin/qsap_qapeservice
+vendor/etc/init/vendor.qsap.qapeservice.rc
+vendor/etc/seccomp_policy/qsap_qapeservice.policy
 
 # QTI
 vendor/lib64/libsoc_helper.so
@@ -1555,10 +1554,9 @@ vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
 vendor/etc/seccomp_policy/gnss@2.0-base.policy
+vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/seccomp_policy/qms.policy
