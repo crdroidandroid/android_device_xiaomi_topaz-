@@ -220,6 +220,15 @@ ro.vendor.whitepoint_calibration_enable=true
 ro.vendor.xiaomi.bl.poll=true
 sys.displayfeature_hidl=true
 
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+ro.max.fling_velocity=20000
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # FM
 vendor.hw.fm.init=0
 
