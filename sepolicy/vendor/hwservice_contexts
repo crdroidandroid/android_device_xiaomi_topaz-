@@ -11,9 +11,6 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon         
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt               u:object_r:hal_fingerprint_hwservice:s0
 vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint               u:object_r:hal_fingerprint_hwservice:s0
 
-# Micharge
-vendor.xiaomi.hardware.micharge::IMiCharge u:object_r:vendor_hal_micharge_xiaomi_hwservice:s0
-
 # Mlipay
 vendor.xiaomi.hardware.mlipay::IMlipayService       u:object_r:hal_mlipay_hwservice:s0
 vendor.xiaomi.hardware.mtdservice::IMTService       u:object_r:hal_mtdservice_hwservice:s0
