@@ -18,6 +18,9 @@ genfscon sysfs /devices/platform/soc/soc:spf_core_platform/soc:spf_core_platform
 genfscon sysfs /devices/platform/soc/soc:spf_core_platform/soc:spf_core_platform:bolero-codec/wcd937x-codec/extcon u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/soc:rt-pd-manager/extcon u:object_r:sysfs_extcon:s0
 
+# last_kmsg
+genfscon proc /last_kmsg                                                       u:object_r:proc_last_kmsg:s0
+
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fpc1020/device_prepare                u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fpc1020/fingerdown_wait               u:object_r:vendor_sysfs_fingerprint:s0
