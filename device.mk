@@ -433,6 +433,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/bengal/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# QCC
+PRODUCT_PACKAGES += \
+    libgrpc++_unsecure.vendor
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
