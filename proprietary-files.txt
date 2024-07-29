@@ -179,11 +179,7 @@ vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/vendor.qti.battery_stats.rc
 
 # Bluetooth - from sapphire V14.0.6.0.TNGMIXM
-system_ext/app/BluetoothDsDaService/BluetoothDsDaService.apk|d9c624977af4244e42ea551673bc31a6419657f4
 system_ext/etc/bluetooth/leaudio_configs.xml|9bcdda1267740f85c1f3581697d20c2967f3f7a8
-system_ext/etc/default-permissions/com.qualcomm.qtil.btdsda.xml|772b2a03833764c08f8023a5b143d3f9357f1f67
-system_ext/lib/com.qualcomm.qti.ant@1.0.so|c1a0894e23411b77971a5a87a81165ca8a3866a6
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bdd0b1538f514f237c2ed3915d755cdbd5e2743
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|3fdd0f9750dfb32379cef426accfec65b35db095
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|f388575998e706e2acfa20916e21f2aa32832c76
