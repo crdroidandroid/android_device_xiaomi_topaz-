@@ -6,6 +6,9 @@ audio.sys.mute.latency.factor=2
 audio.sys.offload.pstimeout.secs=3
 ro.af.client_heap_size_kbyte=7168
 
+# Bluetooth
+bluetooth.hardware.power.operating_voltage_mv=3700
+
 # Radio
 persist.vendor.radio.enable_temp_dds=true
 ro.vendor.radio.fastdormancy=true
