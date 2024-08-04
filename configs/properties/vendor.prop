@@ -130,7 +130,6 @@ persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
 persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false
 persist.vendor.qcom.bluetooth.scram.enabled=false
 persist.vendor.qcom.bluetooth.soc=cherokee
-persist.vendor.service.bdroid.sibs=false
 ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
