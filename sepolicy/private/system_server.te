@@ -1,1 +1,3 @@
+allow system_server audioserver_tmpfs:file { write };
+allow system_server mediaserver_tmpfs:file { write };
 allow system_server system_file:file { open read getattr };
