@@ -135,6 +135,7 @@ ro.bluetooth.a2dp_offload.supported=true
 # Camera
 camera.disable_zsl_mode=1
 sys.haptic.ignoreWhenCamera=true
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,us.zoom.videomeetings
 
 # Charger
 persist.vendor.quick.charge=1
