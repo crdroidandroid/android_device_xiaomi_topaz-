@@ -295,6 +295,8 @@ on property:persist.sys.cota.carrier=OR
 
 # ZRAM
 on property:sys.boot_completed=1
+    # Disable statsd service to prevent additional battery drain
+    stop statsd
     # Read only one page at a time
     write /proc/sys/vm/page-cluster 0
     # Swap more aggressively
