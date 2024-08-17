@@ -346,3 +346,7 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     ioprio rt 4
     task_profiles ProcessCapacityHigh HighPerformance
     onrestart restart audioserver
+
+on property:vendor.post_boot.parsed=1
+    # Disable process_reclaim
+    write /sys/module/process_reclaim/parameters/enable_process_reclaim 0
