@@ -240,6 +240,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.hardware.fp.sideCap=true
 
 # Graphics
+debug.hwui.renderer=skiagl
 graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
