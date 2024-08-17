@@ -77,6 +77,8 @@ on early-init
 
     #Disable UFS clock scaling
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 0
+    #Turn off vblank irq immediately after turning off
+    write /sys/module/drm/parameters/vblankoffdelay -1
     #Disable UFS auto_hibern8
     write /sys/bus/platform/devices/1d84000.ufshc/auto_hibern8 0
     #Disable UFS clock gating
