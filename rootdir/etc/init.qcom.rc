@@ -531,6 +531,12 @@ on property:sys.boot_completed=1
     chown media audio /sys/kernel/aud_dev/state
     write /sys/devices/virtual/cvp/cvp/boot 1
 
+    # Start perf
+on property:vendor.post_boot.parsed=1
+    # Set CPU Boost Duration
+    write /sys/devices/system/cpu/cpu_boost/input_boost_ms 200
+    write /proc/sys/walt/input_boost/input_boost_ms 200
+
 on property:persist.vendor.radio.atfwd.start=false
     stop vendor.atfwd
 
