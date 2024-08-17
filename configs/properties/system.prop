@@ -1,6 +1,10 @@
 # CNE
 persist.vendor.cne.feature=1
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1s
+
 # Ftrace
 persist.debug.ftrace_events_disable=Yes
 
