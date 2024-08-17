@@ -241,6 +241,7 @@ ro.hardware.fp.sideCap=true
 
 # Graphics
 debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno

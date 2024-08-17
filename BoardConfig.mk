@@ -81,6 +81,9 @@ BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbs/dtbo.img
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
+# HWUI
+USE_OPENGL_RENDERER := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_topaz
 TARGET_RECOVERY_DEVICE_MODULES := init_topaz
