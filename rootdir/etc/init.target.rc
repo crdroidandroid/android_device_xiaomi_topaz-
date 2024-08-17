@@ -310,6 +310,9 @@ on property:sys.boot_completed=1
 on property:persist.ro.ril.oem.btmac=*
   setprop ro.ril.oem.btmac ${persist.ro.ril.oem.btmac}
 
+on property:sys.boot_completed=1
+  write /sys/devices/virtual/thermal/thermal_message/sconfig 20
+
 # Sync attribute volume between system and vendor
 on property:sys.volume.stream.music.device.speaker=*
     setprop vendor.volume.stream.music.device.speaker ${sys.volume.stream.music.device.speaker}
