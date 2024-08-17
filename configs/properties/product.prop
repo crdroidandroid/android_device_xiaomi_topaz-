@@ -6,6 +6,9 @@ audio.sys.mute.latency.factor=2
 audio.sys.offload.pstimeout.secs=3
 ro.af.client_heap_size_kbyte=7168
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Radio
 persist.vendor.radio.enable_temp_dds=true
 ro.vendor.radio.fastdormancy=true
