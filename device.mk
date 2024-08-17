@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# APEX
+PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
