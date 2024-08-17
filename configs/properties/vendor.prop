@@ -222,6 +222,9 @@ ro.vendor.whitepoint_calibration_enable=true
 ro.vendor.xiaomi.bl.poll=true
 sys.displayfeature_hidl=true
 
+# Fingerprint
+ro.hardware.fp.sideCap=true
+
 # Fling
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
@@ -237,8 +240,8 @@ vendor.hw.fm.init=0
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# Fingerprint
-ro.hardware.fp.sideCap=true
+# FS-verity
+ro.apk_verity.mode=2
 
 # Graphics
 debug.hwui.renderer=skiagl
