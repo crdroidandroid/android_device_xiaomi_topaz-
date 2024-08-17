@@ -35,7 +35,7 @@
        <Config
            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="khaje"
            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                      0x40800100, 0xFFF" />
+                      0x40800100, 0xFFF, 0x4280C000, 1114" />
 
     <!--app lauch boost (disabling packing)-->
         <!-- POWER COLLAPSE resource opcode, value-->
@@ -317,7 +317,8 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="khaje" Fps="60"
-            Resources="0x4303C000, 768000, 0x40800000, 1344, 0x40800100, 1190, 0x40C00000, 2" />
+            Resources="0x43010000, 0x26, 0x40800000, 1344, 0x40800100, 1190, 0x40C00000, 2,
+                       0x4280C000, 785" />
 
         <!-- DDR_BW_MIN_FREQ_V2 resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
