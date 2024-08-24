@@ -576,6 +576,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.0.vendor \
     android.hardware.wifi.hostapd-V1-ndk.vendor \
     android.hardware.wifi.supplicant-V1-ndk.vendor \
+    android.media.audio.common.types-V2-cpp \
     hostapd \
     libwpa_client \
     libwifi-hal-ctrl \
