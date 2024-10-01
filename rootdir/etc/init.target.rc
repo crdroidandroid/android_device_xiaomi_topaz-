@@ -71,10 +71,6 @@ on fs
     chmod 0666 /sys/class/thermal/thermal_message/temp_state
     chown system system /sys/class/thermal/thermal_message/temp_state
 
-on post-fs
-    # set RLIMIT_MEMLOCK to 64MB
-    setrlimit 8 67108864 67108864
-
 on late-fs
     mount_all /vendor/etc/fstab.qcom --late
 
