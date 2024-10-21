@@ -41,6 +41,10 @@ service vendor.fps_hal_lc /vendor/bin/hw/android.hardware.biometrics.fingerprint
 on property:vendor.fps_hal.restartimes=max
     stop vendor.fps_hal_lc
 
+on property:sys.boot_completed=1
+    # Only owner can acces this node
+    chmod 440 /proc/net/unix
+
 service stflashtool /vendor/bin/STFlashTool
     class late_start
     group nfc
