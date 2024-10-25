@@ -250,6 +250,8 @@ on boot
     # Create vpp directory
     mkdir /mnt/vendor/persist/vpp 0770 media media
 
+    # GPU boost
+    chmod 0660 /sys/class/kgsl/kgsl-3d0/min_pwrlevel
 
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
